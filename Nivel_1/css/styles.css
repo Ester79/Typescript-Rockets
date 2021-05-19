@@ -1,0 +1,30 @@
+*{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+
+.cajaNivel1{
+    background-color:white;
+    color:black;
+    display:block;
+    justify-content:unset;
+    padding-block-end: 10px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.descripcionNivel1{
+    background-color: white;
+}
+
+.acciones{
+    color:white;
+    
+}
+

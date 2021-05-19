@@ -1,0 +1,137 @@
+
+body {
+    background-color: black;
+}
+
+
+.cajaNivel1{
+    background-color:wblackhite;
+    color:black;
+    display:block;
+    justify-content:unset;
+    padding-block-end: 10px;
+    margin-top: 20px;
+    padding-left: 20px;
+    height: auto;
+}
+
+.descripcionNivel1{
+    background-color: black;
+    color:white;
+    display:block;
+    width: 50%;
+    height: 85px;
+    padding-left: 20px;
+    font-size: 13px;
+}
+
+.descripcionNivel2{
+    background-color: black;
+    color:white;
+    width: 100%;
+    height: auto;
+    padding-left: 20px;
+    font-size: 11px;
+}
+
+.acciones{
+    color:white;
+    background-color:transparent;
+    margin-bottom: 10px;
+    border-radius: 50px;
+    border-style: solid;
+    font-size: 11px;
+    font-weight: bold;
+    
+}
+
+/***************************** NIVEL 2 *********************************/
+.cajaGeneral { 
+    height: auto; 
+}
+
+.tiposCohetes {
+    background-color: greenyellow;
+}
+
+
+.tablonInfo{
+    /*background-color: red;*/
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.indicadores{
+    background-color: white;
+    height: 60px;
+    width: 40%;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    margin-inline: 20px;
+    border-radius: 15px;
+}
+
+
+.mensajeAviso{
+    display:block;
+    text-align: center;
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+
+#avisoR1, #avisoR2{
+    margin-top: 50px;
+    font-weight: bold;  
+}
+
+.accelera {
+    position:absolute;
+    left: 75%;
+    width: 20%;
+    display: right;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: black;
+    border:4px solid lime;
+}
+
+.frena {
+    width: 20%;
+    margin-left: 3%;
+    background-color: black;
+    border:4px solid red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+.send{
+    font-size: xx-large;
+    font-style: italic;
+    color: lime;
+}
+
+.stop {
+    font-size: xx-large;
+    color:red;
+}
+
+.ready{
+    font-size: xx-large;
+    color:orange;
+}
+
+.control{
+    color: blue;
+    font-size: x-large;
+}
+
+
+
+
+
+
