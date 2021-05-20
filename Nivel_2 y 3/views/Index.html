@@ -20,7 +20,7 @@
 <!--Contenedor con botones para el 1er cohete-->
 <div class="cajaNivel1" >
     <button type="button" class="btn btn-primary acciones" onclick="crearCohete1()">Create Rocket 1</button>
-    <button type="button" class="btn btn-info acciones" onclick="imprime1()">Print Info Rocket 1!</button>
+    <button type="button" class="btn btn-info acciones" onclick="imprime(0)">Print Info Rocket 1!</button>
 
     <div class="tablonInfo">
         <div class="container indicadores">
@@ -42,18 +42,18 @@
             </div>
         </div>
     </div>
-    <button type="button" class="btn btn-outline-danger acciones frena" onclick="frena1()">Brake Rocket 1!</button>
-    <button type="button" class="btn btn-outline-warning acciones accelera" onclick="accelera1()">Accelerate Rocket 1!</button>
+    <button type="button" class="btn btn-outline-danger acciones frena" onclick="frena(0)">Brake Rocket 1!</button>
+    <button type="button" class="btn btn-outline-warning acciones accelera" onclick="accelera(0)">Accelerate Rocket 1!</button>
     
 </div>
 <!--Contenedor para descripción del 1er cohete creado-->
 <div class="tablonInfo">
     <div class="descripcionNivel1">
-        <p id="infoR1"></p>
+        <p id="infoR0"></p>
         <p id="totalCohetes"></p>
     </div>
     <div class="mensajeAviso">
-        <p id="avisoR1"></p> 
+        <p id="avisoR0"></p> 
     </div>
 </div>
 
@@ -62,7 +62,7 @@
 <!--Contenedor con botones para el 2º cohete-->
 <div class="cajaNivel1" >
     <button type="button" class="btn btn-primary acciones" onclick="crearCohete2()">Create Rocket 2</button>
-    <button type="button" class="btn btn-info acciones" onclick="imprime2()">Print Info Rocket 2!</button>
+    <button type="button" class="btn btn-info acciones" onclick="imprime(1)">Print Info Rocket 2!</button>
 
     <div class="tablonInfo">
         <div class="container indicadores">
@@ -84,18 +84,18 @@
             </div>
         </div>
     </div>
-    <button type="button" class="btn btn-outline-danger acciones frena" onclick="frena2()">Brake Rocket 2!</button>
-    <button type="button" class="btn btn-outline-warning acciones accelera" onclick="accelera2()">Accelerate Rocket 2!</button>
+    <button type="button" class="btn btn-outline-danger acciones frena" onclick="frena(1)">Brake Rocket 2!</button>
+    <button type="button" class="btn btn-outline-warning acciones accelera" onclick="accelera(1)">Accelerate Rocket 2!</button>
     
 </div>
 <!--Contenedor para descripción del 2º cohete creado-->
 <div class="tablonInfo">
     <div class="descripcionNivel1">
-        <p id="infoR2"></p>
+        <p id="infoR1"></p>
         <p id="totalCohetes"></p>
     </div>
     <div class="mensajeAviso">
-        <p id="avisoR2"></p> 
+        <p id="avisoR1"></p> 
     </div>
 </div>
 
